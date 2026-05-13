@@ -1,7 +1,4 @@
 import pandas as pd
-from line import line_chart as l
-from bar import bar_chart as b
-from pie import pie_chart as p
 df = pd.read_csv("messy_sales_data.csv")
 df = df.drop_duplicates()
 df = df.fillna({"city": "Unknown",
@@ -25,7 +22,6 @@ top_city = df.groupby("city")["price"].sum().idxmax()
 top_5_product = df.groupby("product")["quantity"].sum().sort_values(ascending=False).iloc[0:5]
 df["month"]= df["order_date"].dt.month
 sales_by_month = df.groupby("month")["price"].sum()
-print(sales_by_month)
 with open("report.txt", "w", encoding="UTF-8") as f:
     f.write("sales anlaysis report\n")
     f.write("======================\n\n")
@@ -33,6 +29,6 @@ with open("report.txt", "w", encoding="UTF-8") as f:
     f.write(f"top product: {top_product}\n")
     f.write(f"avg price: {avg_price}\n")
     f.write(f"top city: {top_city}\n")
-l(sales_by_month, "Sales Per Month", "Month", "Sales")    
+
    
 
