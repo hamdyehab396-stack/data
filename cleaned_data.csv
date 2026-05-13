@@ -1,0 +1,15 @@
+,order_id,customer_name,product,quantity,price,order_date,city
+0,1001, Ahmed ,Laptop,1.0,15000.0,2026-01-05,Cairo
+1,1002,Sara,Phone,2.0,8000.0,2026-05-01,Alexandria
+2,1003,Mohamed,Tablet,1.0,5000.0,2026-01-06,Giza
+3,1004,Laila,Laptop,1.0,15000.0,2026-07-01,Cairo
+4,1005,Omar,Headphones,0.0,1200.0,2026-01-08,Mansoura
+5,1006,Nour,Phone,3.0,0.0,2026-08-01,Alexandria
+6,1007,Youssef,Keyboard,2.0,900.0,2026-01-09,Tanta
+7,1008,Mona,Mouse,1.0,400.0,2026-01-09,Cairo
+8,1009,Ali,Laptop,1.0,15000.0,2026-01-10,Giza
+9,1010,Salma,Phone,2.0,8000.0,2026-10-01,Alexandria
+12,1011, Hassan,Tablet,1.0,5000.0,1900-01-01,Mansoura
+13,1012,Unknown,Mouse,2.0,400.0,2026-01-12,Cairo
+14,1013,Nada,Keyboard,0.0,900.0,2026-01-12,Tanta
+15,1014,Karim,Phone,1.0,8500.0,1900-01-01,Cairo

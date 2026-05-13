@@ -1,0 +1,7 @@
+sales anlaysis report
+======================
+
+total sales: 83300.0
+top product: Phone
+avg price: 5950.0
+top city: Cairo
